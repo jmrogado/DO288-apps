@@ -9,7 +9,7 @@ echo "---> Enabling s2i support in httpd24 image"
 config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
-DATE=`date +'%Y/%MM/%dd HH:mm'`
+DATE=`date +'%Y/%M/%d %H:%m'`
 
 echo "Image built on $DATE" >> info.html
 echo "Otro mensaje" >> info.html
