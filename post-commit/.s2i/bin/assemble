@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "ESTO ES EL ASSEMBLE"
+
+echo "print(\"ESTO ES EL SCRIPT DE PYTHON\")" >> prueba.py
+
+/usr/libexec/s2i/assemble
